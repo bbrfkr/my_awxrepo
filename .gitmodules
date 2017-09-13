@@ -1,0 +1,18 @@
+[submodule "kubernetes_common"]
+	path = kubernetes_common
+	url = https://github.com/bbrfkr/ansible_role_kubernetes_common
+[submodule "roles/kubernetes_common"]
+	path = roles/kubernetes_common
+	url = https://github.com/bbrfkr/ansible_role_kubernetes_common
+[submodule "roles/kubernetes_master"]
+	path = roles/kubernetes_master
+	url = https://github.com/bbrfkr/ansible_role_kubernetes_master
+[submodule "roles/kubernetes_minion"]
+	path = roles/kubernetes_minion
+	url = https://github.com/bbrfkr/ansible_role_kubernetes_minion
+[submodule "roles/kubernetes_selinux"]
+	path = roles/kubernetes_selinux
+	url = https://github.com/bbrfkr/ansible_role_selinux
+[submodule "roles/selinux"]
+	path = roles/selinux
+	url = https://github.com/bbrfkr/ansible_role_selinux
