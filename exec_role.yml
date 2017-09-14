@@ -1,6 +1,6 @@
 ---
 - name: ===== apply role: {{ exec_role }} =====
-  host: "{{ exec_group }}"
+  host: all
   roles: 
     - "{{ exec_role }}"
 
