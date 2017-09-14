@@ -1,7 +1,7 @@
 ---
 - name: ===== apply role [ {{ exec_role }} ] =====
   hosts: "{{ exec_group }}"
-  gather_facts: "{{ enable_facts }}"
+  gather_facts: "{{ enable_facts | default('on') }}"
   roles: 
     - "{{ exec_role }}"
 
