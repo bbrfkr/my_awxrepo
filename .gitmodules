@@ -34,3 +34,6 @@
 [submodule "roles/bbrfkr.openstack_instance"]
 	path = roles/bbrfkr.openstack_instance
 	url = https://github.com/bbrfkr/ansible_role_openstack_instance
+[submodule "roles/bbrfkr.kubernetes_setup"]
+	path = roles/bbrfkr.kubernetes_setup
+	url = https://github.com/bbrfkr/ansible_role_kubernetes_setup
