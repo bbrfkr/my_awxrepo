@@ -19,3 +19,18 @@
 [submodule "roles/openstack_instance"]
 	path = roles/openstack_instance
 	url = https://github.com/bbrfkr/ansible_role_openstack_instance
+[submodule "roles/bbrfkr.kubernetes_common"]
+	path = roles/bbrfkr.kubernetes_common
+	url = https://github.com/bbrfkr/ansible_role_kubernetes_common
+[submodule "roles/bbrfkr.kubernetes_master"]
+	path = roles/bbrfkr.kubernetes_master
+	url = https://github.com/bbrfkr/ansible_role_kubernetes_master
+[submodule "roles/bbrfkr.kubernetes_minion"]
+	path = roles/bbrfkr.kubernetes_minion
+	url = https://github.com/bbrfkr/ansible_role_kubernetes_minion
+[submodule "roles/bbrfkr.selinux"]
+	path = roles/bbrfkr.selinux
+	url = https://github.com/bbrfkr/ansible_role_selinux
+[submodule "roles/bbrfkr.openstack_instance"]
+	path = roles/bbrfkr.openstack_instance
+	url = https://github.com/bbrfkr/ansible_role_openstack_instance
