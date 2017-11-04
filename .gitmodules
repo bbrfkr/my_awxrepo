@@ -37,3 +37,9 @@
 [submodule "roles/bbrfkr.kubernetes_setup"]
 	path = roles/bbrfkr.kubernetes_setup
 	url = https://github.com/bbrfkr/ansible_role_kubernetes_setup
+[submodule "roles/bbrfkr.openstack_common"]
+	path = roles/bbrfkr.openstack_common
+	url = https://github.com/bbrfkr/ansible_role_openstack_common
+[submodule "roles/bbrfkr.openstack_mariadb"]
+	path = roles/bbrfkr.openstack_mariadb
+	url = https://github.com/bbrfkr/ansible_role_openstack_mariadb
