@@ -1,6 +1,6 @@
 ---
 - name: ===== apply role [ {{ exec_role }} ] =====
-  hosts: "{{ exec_group }}"
+  hosts: "{{ exec_group | default('all') }}"
   gather_facts: "{{ enable_facts | default('on') }}"
   roles: 
     - "{{ exec_role }}"
