@@ -43,3 +43,9 @@
 [submodule "roles/bbrfkr.openstack_mariadb"]
 	path = roles/bbrfkr.openstack_mariadb
 	url = https://github.com/bbrfkr/ansible_role_openstack_mariadb
+[submodule "roles/bbrfkr.openstack_rabbitmq"]
+	path = roles/bbrfkr.openstack_rabbitmq
+	url = https://github.com/bbrfkr/ansible_role_openstack_rabbitmq
+[submodule "roles/bbrfkr.openstack_memcached"]
+	path = roles/bbrfkr.openstack_memcached
+	url = https://github.com/bbrfkr/ansible_role_openstack_memcached
